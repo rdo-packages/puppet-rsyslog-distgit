@@ -51,4 +51,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/rsyslog/
 
 
 %changelog
-
