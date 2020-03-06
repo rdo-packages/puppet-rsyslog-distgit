@@ -54,3 +54,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/rsyslog/
 * Thu Feb 15 2018 RDO <dev@lists.rdoproject.org> 3.3.1-0.1.0rc0.0c2b6c8git
 - Update to post 3.3.1-rc0 (0c2b6c8d6ef5401e069a7ba2d69d33aedb295fd1)
 
+
