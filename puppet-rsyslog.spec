@@ -8,8 +8,8 @@
 
 
 Name:           puppet-rsyslog
-Version:        XXX
-Release:        XXX
+Version:        6.0.1
+Release:        0.1%{?milestone}%{?alphatag}%{?dist}
 Summary:        Puppet module for rsyslog
 License:        ASL 2.0
 
@@ -51,4 +51,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/rsyslog/
 
 
 %changelog
+* Thu Oct 20 2022 RDO <dev@lists.rdoproject.org> 6.0.1-0.1.0rc0.7c7c37dgit
+- Update to post 6.0.1 (7c7c37d4904c4038492558f48351e86ec07abf45)
+
 
