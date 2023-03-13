@@ -1,15 +1,15 @@
 %global milestone .0rc0
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-rsyslog
-%global commit d42f3dcf61c64c2b8cf7677dde8feced45689c14
+%global commit ec3faef4d5336fcfe5d7f425c8248d7eb659391c
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-rsyslog
-Version:        XXX
-Release:        XXX
+Version:        6.0.1
+Release:        0.3%{?milestone}%{?alphatag}%{?dist}
 Summary:        Puppet module for rsyslog
 License:        ASL 2.0
 
@@ -51,4 +51,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/rsyslog/
 
 
 %changelog
+* Mon Mar 13 2023 RDO <dev@lists.rdoproject.org> 6.0.1-0.3.0rc0.ec3faefgit
+- Update to post 6.0.1-rc0 (ec3faef4d5336fcfe5d7f425c8248d7eb659391c)
+
 
