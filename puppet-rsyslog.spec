@@ -52,3 +52,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/rsyslog/
 
 %changelog
 
+# REMOVEME: error caused by commit https://github.com/voxpupuli/puppet-rsyslog/commit/cb2b91dba7262b2a41c78e4eb1801a1aba8a2baf
